@@ -1,10 +1,10 @@
 import { ContactItem } from 'components';
 import styles from './ContactList.module.css';
 
-export const ContactList = ({ contacts, deleteContact }) => {
+export const ContactList = () => {
   return (
     <ul className={styles.ul}>
-      <ContactItem contacts={contacts} deleteContact={deleteContact} />
+      <ContactItem />
     </ul>
   );
 };
